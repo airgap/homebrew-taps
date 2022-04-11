@@ -1,5 +1,8 @@
+#!/bin/sh
+
 lines="$(tput lines)"
-for ((i=1; i <= lines; i++))
+i=1
+while [ $i -le "$lines" ]
 do
   echo
 done
